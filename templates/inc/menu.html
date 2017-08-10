@@ -1,0 +1,8 @@
+<style>
+    ul a.active{color: red;}
+</style>
+<ul>
+    {% for item in items %}
+        {% include "inc/menu_items.html" %}
+    {% endfor %}
+</ul>
